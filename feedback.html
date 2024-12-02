@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback page</title>
+        <style>
+            body{
+                background-image: linear-gradient(to top, skyblue, lightcyan, white);
+            }
+            form{
+                text-align: center;
+                border: 3px solid darkblue;
+                width: 500px;
+                padding: 30px;
+                margin-left: 500px;
+            }
+            input, select, textarea{
+                width: 300px;
+                color:cornflowerblue;
+            }
+            label{
+                color: cornflowerblue;
+            }
+            h1, h3{
+                color: darkblue;
+                background-color: blanchedalmond;
+                text-align: center;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1>Feedback page.</h1></header>
+        <h3>Please leave your product feedback here.</h3>
+        <br><br>
+        <form>
+            <label>Your name:</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>Your email:</label>
+            <br>
+            <input type="email">
+            <br><br>
+            <label>Your phone number:</label>
+            <br>
+            <input type="text">
+            <br><br>
+            <label>What product did you purchase?:</label>
+            <br>
+            <select>
+                <option>Select product</option>
+                <option>Brushes</option>
+                <option>Craft felt</option>
+                <option>Markers</option>
+                <option>Paint</option>
+                <option>Paper</option>
+                <option>Pencils</option>
+            </select>
+            <br><br>
+            <label>What was the issue with this product?:</label>
+            <br>
+           <textarea name="" id="" placeholder="Enter your issue" rows="3"> </textarea>
+            <br><br>
+            <label>What is your feedback for this product?:</label>
+            <br>
+           <textarea name="" id="" placeholder="Enter feedback here" rows="3"></textarea>
+            <br><br>
+            <label>Sumbit feedback:</label>
+            <br>
+            <input type="submit">
+        </form>
+        <marquee><h4>Thank you for sending feedback</h4></marquee>
+    </body>
+</html>
